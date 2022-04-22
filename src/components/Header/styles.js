@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
     title: {
         display: 'none',
         [ theme.breakpoints.up('sm') ]: {
-            display: 'black',
+            display: 'block',
         },
     },
     search: {
@@ -24,7 +24,7 @@ export default makeStyles((theme) => ({
     },
     searchIcon: {
         padding: theme.spacing(0, 2), 
-        heigth: '100%', 
+        height: '100%', 
         position: 'absolute', 
         pointerEvents: 'none',
         display: 'flex', 
